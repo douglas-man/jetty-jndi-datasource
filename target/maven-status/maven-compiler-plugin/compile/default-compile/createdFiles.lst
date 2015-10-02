@@ -1,0 +1,4 @@
+com/wrox/site/EntityServlet.class
+com/wrox/site/entities/Author.class
+com/wrox/site/entities/Publisher.class
+com/wrox/site/entities/Book.class
