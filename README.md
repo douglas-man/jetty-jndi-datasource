@@ -8,3 +8,8 @@ The pom.xml should be ready to build and run if you have an instance of an Oracl
 Actually, one would have to edit jetty.xml file for the database connection properties before it can be build and run.
 
 e.g. mvn jetty:run
+
+
+To install oracle driver into to your local maven repository...
+
+mvn install:install-file -Dfile=/home/jsmith/Downloads/ojdbc6_g.jar -DgroupId=com.oracle -DartifactId=ojdbc6 -Dversion=11.2.0 -Dpackaging=jar
